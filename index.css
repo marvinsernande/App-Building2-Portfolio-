@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#home {
+    background-color: #007bff;
+    color: white;
+}
+
+#categories-section {
+    background-color: #f8f9fa;
+    color: black;
+}
+
+#about {
+    background-color: #6c757d;
+    color: white;
+}
+
+.intro-section .card {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+.intro-section .card-title {
+    font-weight: bold;
+}
+
+.featured-section .card {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-section .card-title {
+    font-weight: bold;
+}
+
+.featured-section .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.featured-section .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (min-width: 576px) {
+    .featured-section .card {
+        flex: 1;
+    }
+}
+
+.featured-section .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.featured-section .row > .col-md-4 {
+    display: flex;
+    flex: 1;
+    margin-bottom: 20px;
+}

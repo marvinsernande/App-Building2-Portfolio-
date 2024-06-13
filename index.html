@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Resource Hub</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<!-- Navigation Menu -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#home">WebDevHub</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#categories-section">Categories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="bg-primary text-center">
+    <div class="container">
+        <h1 class="pt-5 text-white">Welcome to WebDevHub</h1>
+        <p class="text-white">Your one-stop resource for web development materials.</p>
+
+        <!-- Introduction -->
+        <div id="introduction" class="intro-section text-white">
+            <h2>Introduction</h2>
+            <p>WebDevHub is dedicated to providing quality web development resources for developers, educators, and students alike.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-dark mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">For Developers</h5>
+                            <p class="card-text">Find the best resources to enhance your web development skills.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-dark mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">For Educators</h5>
+                            <p class="card-text">Access teaching materials, lesson plans, and activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-dark mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">For Students</h5>
+                            <p class="card-text">Support your learning journey with our web development resources.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Section -->
+        <div id="featured" class="featured-section text-white">
+            <h2>Featured Resources</h2>
+            <p>Explore our featured web development resources, curated by experts.</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/htmlcss.png" class="card-img-top" alt="Resource 1">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">HTML & CSS Basics</h5>
+                            <p class="card-text text-dark">Learn the fundamentals of HTML and CSS to create beautiful web pages. This resource includes tutorials, exercises, and projects to get you started.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/js.png" class="card-img-top" alt="Resource 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">JavaScript Essentials</h5>
+                            <p class="card-text text-dark">Master the basics of JavaScript, the programming language of the web. This resource covers syntax, DOM manipulation, and more.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="./images/rwd.png" class="card-img-top" alt="Resource 3">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Responsive Web Design</h5>
+                            <p class="card-text text-dark">Learn how to create websites that look great on any device. This resource includes responsive design principles, media queries, and best practices.</p>
+                            <a href="#" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section id="categories-section" class="bg-light text-dark text-center">
+    <div class="container">
+        <h2>Categories</h2>
+        <div id="categories" class="row mt-5">
+            <div class="col-md-4">
+                <h3>Frontend Development</h3>
+                <p>Explore resources on HTML, CSS, JavaScript, and more to build stunning user interfaces.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Backend Development</h3>
+                <p>Dive into server-side programming with resources on Node.js, databases, and API development.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Full-Stack Development</h3>
+                <p>Become a versatile developer with our full-stack resources covering both frontend and backend technologies.</p>
+            </div>
+        </div>
+
+        <!-- Sample Resources -->
+        <div id="resources" class="mt-5">
+            <h2>Sample Resources</h2>
+            <p>Check out some of our sample resources to get started with web development.</p>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="bg-secondary text-white text-center">
+    <div class="container">
+        <h2 class="mb-5">About Us</h2>
+
+        <!-- Mission Statement -->
+        <div id="mission">
+            <h3>Our Mission</h3>
+            <p>Our mission is to make quality web development education accessible to everyone.</p>
+        </div>
+
+        <!-- Contact Information -->
+        <div id="contact" class="mt-5">
+            <h3>Contact Us</h3>
+            <p>Email: info@webdevhub.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
